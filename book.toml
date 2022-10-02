@@ -1,0 +1,10 @@
+[book]
+authors = ["Alejandro Díaz Pereira"]
+language = "es"
+multilingual = false
+src = "src"
+title = "Tesorería"
+description = "Manual de referencia acerca de las responsabilidades y procesos de las tesorerías de las asocaciones estuduiantiles del TEC"
+
+[output.html.fold]
+enable = true
