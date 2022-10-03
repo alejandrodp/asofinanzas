@@ -1,0 +1,17 @@
+ name: deploy
+
+ on: [push]
+
+ jobs:
+   build:
+
+     runs-on: ubuntu-latest
+    
+     steps:
+     - name: Execute deploy command
+       uses: appleboy/ssh-action@master
+       with:
+         host: ${{ secrets.HOST }}
+         username: ${{ secrets.USERNAME }}
+         key: ${{ secrets.KEY }}
+         port: ${{ secrets.PORT }}
