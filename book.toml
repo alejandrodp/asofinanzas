@@ -3,8 +3,8 @@ authors = ["Alejandro Díaz Pereira"]
 language = "es"
 multilingual = false
 src = "src"
-title = "Tesorería"
-description = "Manual de referencia acerca de las responsabilidades y procesos de las tesorerías de las asocaciones estuduiantiles del TEC"
+title = "Secretaría de finanzas"
+description = "Manual de referencia acerca de las responsabilidades y procesos de las secretarías de finanzas de las asocaciones estudiantiles del TEC"
 
 [output.html.fold]
 enable = true
